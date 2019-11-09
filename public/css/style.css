@@ -1,0 +1,68 @@
+body{
+    background-color: azure;
+    display: grid;
+}
+.title{
+    text-align: center;
+    width: 100%;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.logo{
+    margin: auto;
+}
+
+.avatar{
+    width: 30%;
+}
+.foto{
+    border-radius: 5%;
+    width: 90%;
+}
+.social-icons{
+    width: 10%;
+    margin-top: 5px;
+    
+    
+}
+
+ul{  
+    margin: auto;
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    margin: 5px;
+    font-size: 40px;
+}
+a{
+    color: rgb(43, 42, 42);
+}
+
+.bio{
+    width: 69%;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+.bio>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 76, 76);
+}
+.bio>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(134, 133, 133);
+}
+
+.iconsF{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.lang{
+    width: 100px;
+   
+}
