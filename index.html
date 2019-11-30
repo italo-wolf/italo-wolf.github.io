@@ -1,115 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="icon" href="./public/img/favicon.ico">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>  Italo Pages</title>
-    <link rel="shortcut icon" href="./public/img/favicon.ico">
+    <!--Materialize-->
+    <link rel="stylesheet" href="./public/css/materialize.css">
+    <!--Style Css-->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <title>Italo Page</title>
 </head>
 
 <body>
+    <!--Header-->
+
     <header>
-        <nav class="navbar navbar-dark" style="background-color: cornflowerblue;">
-
-            <img class="logo" src="./public/img/lobinhoCw.png">
-
-            </div>
-
-        </nav>
-    </header>
-    <div class="container" style="background-color: rgb(244, 247, 250);">
-        <div class="title">
-            <h3>Bem Vindo!</h3>
-        </div>
-        <div class="profile">
-            <div class="avatar">
-                <a href="https://github.com/italo-wolf" target="_blank"><img class="foto"
-                        src="./public/img/53801912.jpg"></a>
-                <div class="social-icons">
-                    <ul>
-                        <li><a target="_blank" href="https://www.facebook.com/italo.araujoparanista"><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a target="_blank" href="https://github.com/italo-wolf"><i class="fa fa-github"></i></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/ytalooo/?hl=pt-br"><i class="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/in/italo-paranista-913a3ba0/"><i class="fa fa-linkedin-square"></i></a></li>
-                        
+        <!--Menu Mobile-->
+        <ul class="sidenav" id="menu-mobile">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servico">I'm familiar with</a></li>
+            <li><a href="#unidades">Planning to learn</a></li>
+        </ul>
+        <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <a href=""><img class="logo_img" src="./public/img/lobinhoCw.png" alt="lobinhoCw"></a>
+                    <ul class="right light hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servico">I'm familiar with</a></li>
+                        <li><a href="#unidades">Planning to learn</a></li>
                     </ul>
-                     
+                    <a href="#" data-target="menu-mobile" class="sidenav-trigger right"><i
+                            class="material-icons">menu</i></a>
                 </div>
-                             
-            </div>
-            <div class="bio">
 
-                <h3>Olá meu nome é Ítalo</h3>
-                <p>
+            </nav>
+
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home bloco" id="home">
+        <div class="row container banner">
+            <div class="col s12 center">
+                <h2 class="white-text">Bem Vindo ao meu Site</h2>
+                <p class="white-text">Aqui voce pode me conhecer um pouco melhor, saber como me contatar e informações
+                    profissonais!</p>
+
+            </div>
+        </div>
+    </section>
+    <!--Sobre-->
+    <section class="sobre bloco scrollspy" id="sobre">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light">Sobre</h2>
+            </div>
+            <div class="col s12 l6">
+                <h3 class="light">Olá meu nome é Ítalo</h3>
+                <p class="light">
                     Meu nome é Italo, tenho 22 anos e estudo atualmente o 5° periodo de Sistema de Informação na
-                    faculade delta,
-                    sou desenvolvedor de software, nas linguagens Java, node.js e Php. Moro no estado do piqui
-                    (Goias).
+                    faculade Delta, sou desenvolvedor de software, nas linguagens Java, node.js e Php. Moro no estado do
+                    piqui (Goias).
+                    Cofundador da comunidade/empresa de desenvolvimento de soluções Coding Wolves. Uma iniciativa
+                    voltada a desenvolver soluções ageis e funcionais, alem de auxiliar novos desenvolvedores em duvidas
+                    e dificuldades sobre esse maravilhoso mundo da progamação.
                 </p>
-                <hr />
-                <p>Nome: Ítalo Araujo Paranista da Silva</p>
-                <hr />
-                <p>Idade: 22 Anos</p>
-                <hr />
-                <p>Telefone: (62) 98108-9790</p>
-                <hr />
-                <p>E-mail: italoparanista@hotmail.com</p>
-                
+                <h3 class="light">Cursos</h3>
+                <p class="light">
+                    # Java Web – POO (Faculdade Delta, cursando 2019) <br>
+                    # Formação em Node.JS (Udemy, conclusão em 2019).<br>
+                    # Informatica Básica (Senac, conclusão em 2016).<br>
+                    # Banco de dados MySQL (Udemy, conclusão em 2019).<br>
+                    # PHP – Orientado Objeto (NodeStudio, Conclusão em 2019).<br>
+                    # HTML5 e CSS3 (NodeStudio, conclusão em 2019).<br>
+                    # Materialize CSS (NodeStudio, conclusão em 2019).<br>
+                    # Design Responsivo (NodeStudio, conclusão em 2019).<br>
+                </p>
+
+                <p>
+                    Idade: 22 Anos
+                </p>
+
+                <p>
+                    Telefone: (62) 98108-9790
+                </p>
+
+                <p>
+                    E-mail: italoparanista@hotmail.com
+                </p>
 
             </div>
+            <div class="col s12 l6 ">
+                <a href="#"><img src="./public/img/53801912.jpg"></a><br>
+                <di class="socialIcons">
+                    <a target="_blank" href="https://www.facebook.com/italo.araujoparanista"><i
+                            class="fa fa-facebook-square"></i></a></li>
+                    <a target="_blank" href="https://github.com/italo-wolf"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/ytalooo/?hl=pt-br"><i
+                            class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/italo-paranista-913a3ba0/"><i
+                            class="fa fa-linkedin-square"></i></a>
+                </di>
 
-        </div>
-        <hr>
-        <div class="info">
-            <div class="iconsF">
-                <h3>I'm familiar with</h3>
-                <ul>
-                    <li><img class="lang" src="./public/img/images.png" alt=""></li>
-                    <li><img class="lang" src="/public/img/css3.png" alt=""></li>
-                    <li><img class="lang" src="./public/img/js.png" alt=""></li>
-                    <li><img class="lang" src="./public/img/bootstrap.png" alt=""></li>
-                    <li><img class="lang" src="./public/img/java1.png" alt=""></li>
-                    <li><img class="lang" src="./public/img/nodejslogo.png" alt=""></li>
-                    <li><img class="lang" src="./public/img/php.png" alt=""></li>
-                    <li><img class="lang" src="./public/img/postgres.png" alt=""></li>
-
-                </ul>
             </div>
-            <hr>
-            <div class="iconsP">
-                <h3>Planning to learn</h3>
-                <ul>
-                    <li><img src="./public/img/pyton.png" class="lang"></li>
-                    <li><img src="./public/img/react.png" class="lang"></li>
-                    <li><img src="./public/img/WordPress.png" class="lang"></li>
-                    <li><img src="./public/img/rials.png" class="lang"></li>
-
-                </ul>
-            </div>
-
         </div>
 
-    </div>
-    <footer>
-            <nav class="navbar navbar-dark" style="background-color: cornflowerblue;">
-                    <p>Copyright © 2019 | Coding Wolves by Ítalo Paranista.</p>
-        
-                </nav>
 
-    </footer>
+    </section>
+    <!--Serviços-->
+    <section class="servicos bloco scrollspy" id="servico">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light">I'm familiar with</h2>
+            </div>
+            <div class="row container">
+                <article class="col s12 m6 ">
+                    <ul>
+                        <li><img src="./public/img/nodejslogo.png" alt=""></li>
+                        <li><img src="./public/img/java1.png" alt=""></li>
+                        <li><img src="./public/img/materialize-380x249.png" alt=""></li>
+                        <li><img src="./public/img/images.png" alt=""></li>
+                        <li><img src="./public/img/postgres.png" alt=""></li>
+                    </ul>
+                </article>
 
+                <article class="col s12 m6  ">
+                    <ul>
+                        <li><img src="./public/img/js.png" alt=""></li>
+                        <li><img src="./public/img/css3.png" alt=""></li>
+                        <li><img src="./public/img/bootstrap.png" alt=""></li>
+                        <li><img src="./public/img/php.png" alt=""></li>
+                    </ul>
+                </article>
+            </div>
+
+            <!--Serviços-->
+            <section class="servicos bloco scrollspy" id="unidades">
+                <div class="row container">
+                    <div class="col s12 center">
+                        <h2 class="light">Planning to learn</h2>
+                    </div>
+                    <article style="text-align: center;">
+                        <ul>
+                            <li><img src="./public/img/react.png" alt=""></li>
+                            <li><img src="./public/img/rials.png" alt=""></li>
+                            <li><img src="./public/img/pyton.png" alt=""></li>
+                            <li><img src="./public/img/WordPress.png" alt=""></li>
+                        </ul>
+                    </article>
+                </div>
+        </div>
+        <!--Footer-->
+        <footer class="page-footer">
+
+            <div class="footer-copyright">
+                <div class="rodape container">
+                    Copyright © 2019 | Coding Wolves by Ítalo Paranista.
+                    <a class="grey-text text-lighten-4 right" href="#!"><img src="./public/img/lobinhoCw.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+        <!--Materialize js-->
+        <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script>
+        <script src="./public/js/materialize.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.sidenav').sidenav();
+            });
+
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 100) {
+                    $(".navbar").addClass("nav-color");
+                } else {
+                    $(".navbar").removeClass("nav-color");
+                }
+            });
+        </script>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="./public/js/bootstrap.min.js"></script>
 
 </html>
