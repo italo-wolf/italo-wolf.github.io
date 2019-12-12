@@ -27,6 +27,9 @@ html, body{
     background-color: transparent;
     color: #2dc7d0;
 }
+.navbar ul a{
+    color: #212121;
+}
 .nav-color{
     background-color: rgba(0,0,0,0.7);
     transition: background 0.5s linear;
